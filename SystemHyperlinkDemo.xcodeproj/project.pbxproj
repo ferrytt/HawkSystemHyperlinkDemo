@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1879809E1C8C7FDD0097EAF7 /* HyperlinkLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1879809D1C8C7FDD0097EAF7 /* HyperlinkLabel.m */; };
+		187980A11C8C930B0097EAF7 /* helper2.m in Sources */ = {isa = PBXBuildFile; fileRef = 187980A01C8C930B0097EAF7 /* helper2.m */; };
+		187980A41C8C96BC0097EAF7 /* help1.m in Sources */ = {isa = PBXBuildFile; fileRef = 187980A31C8C96BC0097EAF7 /* help1.m */; };
 		3E83E63E1C87E73700B688C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E83E63D1C87E73700B688C4 /* main.m */; };
 		3E83E6411C87E73700B688C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E83E6401C87E73700B688C4 /* AppDelegate.m */; };
 		3E83E6441C87E73700B688C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E83E6431C87E73700B688C4 /* ViewController.m */; };
@@ -17,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1879809C1C8C7FDD0097EAF7 /* HyperlinkLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HyperlinkLabel.h; sourceTree = "<group>"; };
+		1879809D1C8C7FDD0097EAF7 /* HyperlinkLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HyperlinkLabel.m; sourceTree = "<group>"; };
+		1879809F1C8C930B0097EAF7 /* helper2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helper2.h; sourceTree = "<group>"; };
+		187980A01C8C930B0097EAF7 /* helper2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = helper2.m; sourceTree = "<group>"; };
+		187980A21C8C96BC0097EAF7 /* help1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = help1.h; sourceTree = "<group>"; };
+		187980A31C8C96BC0097EAF7 /* help1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = help1.m; sourceTree = "<group>"; };
 		3E83E6391C87E73700B688C4 /* SystemHyperlinkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SystemHyperlinkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E83E63D1C87E73700B688C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3E83E63F1C87E73700B688C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,8 +72,14 @@
 			children = (
 				3E83E63F1C87E73700B688C4 /* AppDelegate.h */,
 				3E83E6401C87E73700B688C4 /* AppDelegate.m */,
+				1879809C1C8C7FDD0097EAF7 /* HyperlinkLabel.h */,
+				1879809D1C8C7FDD0097EAF7 /* HyperlinkLabel.m */,
 				3E83E6421C87E73700B688C4 /* ViewController.h */,
 				3E83E6431C87E73700B688C4 /* ViewController.m */,
+				1879809F1C8C930B0097EAF7 /* helper2.h */,
+				187980A01C8C930B0097EAF7 /* helper2.m */,
+				187980A21C8C96BC0097EAF7 /* help1.h */,
+				187980A31C8C96BC0097EAF7 /* help1.m */,
 				3E83E6531C87F15000B688C4 /* UIResponder+Router.h */,
 				3E83E6541C87F15000B688C4 /* UIResponder+Router.m */,
 				3E83E6451C87E73700B688C4 /* Main.storyboard */,
@@ -155,8 +170,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E83E6441C87E73700B688C4 /* ViewController.m in Sources */,
+				1879809E1C8C7FDD0097EAF7 /* HyperlinkLabel.m in Sources */,
+				187980A41C8C96BC0097EAF7 /* help1.m in Sources */,
 				3E83E6411C87E73700B688C4 /* AppDelegate.m in Sources */,
 				3E83E63E1C87E73700B688C4 /* main.m in Sources */,
+				187980A11C8C930B0097EAF7 /* helper2.m in Sources */,
 				3E83E6551C87F15000B688C4 /* UIResponder+Router.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +322,7 @@
 				3E83E6521C87E73700B688C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
